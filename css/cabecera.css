@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera{
+  background-color: #171717;
+  position: fixed;
+  height: 25px;
+}
+
+.font-size12{
+  font-size: 12px;
+}
+
+.white{
+  color: white;
+}
+
+.large-6 a{
+  text-decoration: none;
+}
