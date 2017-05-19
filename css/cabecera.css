@@ -10,17 +10,48 @@
 .cabecera{
   background-color: #171717;
   position: fixed;
-  height: 25px;
+  height: 30px;
+  line-height: 20px;
 }
 
 .font-size12{
-  font-size: 12px;
+  font-size: 0.7rem;
 }
 
 .white{
   color: white;
 }
 
-.large-6 a{
+/*.large-6 a{
   text-decoration: none;
+}*/
+
+.abs{
+  position: absolute;
+  width: 5%;
+  top:0;
+  right: 6rem;
+  line-height: 20px;
+}
+
+.fa-envelope {
+    position: relative;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+.fa-envelope:before {
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #fff;
+    font-size: 20px;
+    /*padding-right: 0.5em;*/
+    position: absolute;
+    top: -15px;
+    left: 0;
 }
