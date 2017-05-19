@@ -22,36 +22,38 @@
   color: white;
 }
 
-/*.large-6 a{
-  text-decoration: none;
-}*/
-
 .abs{
   position: absolute;
-  width: 5%;
+  width: 2%;
   top:0;
   right: 6rem;
   line-height: 20px;
 }
 
 .fa-envelope {
-    position: relative;
+  position: relative;
 }
 
 /*replace the content value with the
 corresponding value from the list below*/
 
 .fa-envelope:before {
-    content: "\f0e0";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
+  content: "\f0e0";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
 /*--adjust as necessary--*/
-    color: #fff;
-    font-size: 20px;
-    /*padding-right: 0.5em;*/
-    position: absolute;
-    top: -15px;
-    left: 0;
+  color: #fff;
+  font-size: 20px;
+  padding-right: 1rem;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+
+.sliders{
+  margin-top: 1.96rem;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
