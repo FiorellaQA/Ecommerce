@@ -14,6 +14,11 @@
   line-height: 20px;
 }
 
+.cabecera a:hover{
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
 .font-size12{
   font-size: 0.7rem;
 }
@@ -24,10 +29,9 @@
 
 .abs{
   position: absolute;
-  width: 2%;
-  top:0;
+  width: 1rem;
+  top: 5px;
   right: 6rem;
-  line-height: 20px;
 }
 
 .fa-envelope {
@@ -53,7 +57,11 @@ corresponding value from the list below*/
 }
 
 .sliders{
-  margin-top: 1.96rem;
+  margin-top: 1.9rem;
   padding-right: 0 !important;
   padding-left: 0 !important;
+}
+
+.email-hidden{
+  padding-left: 1.7rem;
 }
