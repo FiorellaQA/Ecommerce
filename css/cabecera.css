@@ -34,6 +34,10 @@
   right: 6rem;
 }
 
+.email-hidden{
+  padding-left: 1.7rem;
+}
+
 .fa-envelope {
   position: relative;
 }
@@ -56,12 +60,13 @@ corresponding value from the list below*/
   left: 0;
 }
 
-.sliders{
-  margin-top: 1.9rem;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+@media (max-width: 640px){
+  .sliders{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 }
 
-.email-hidden{
-  padding-left: 1.7rem;
-}
+/*.sliders img{
+  height: 500px;
+}*/
