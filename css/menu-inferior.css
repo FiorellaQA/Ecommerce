@@ -23,3 +23,10 @@ body{
     	margin:0 42px;
 	}
 }
+#menu-inferior {
+    padding: 1.5em 1em;
+}
+section.line-gray {
+    margin-top: 1em;
+    border-top: solid 1px rgba(193, 195, 193, 0.94);
+}
