@@ -47,17 +47,30 @@
         </div>
       </div>
     </div> -->
-    <section id="detalle-del-producto" >
+    <section id="detalle-del-producto">
       <div class="row">
-        <img class="small-12 columns" src="img/520570-740x740-1461526216-primary.png">
-      </div>
-      <div class="row">
-        <ul class="small-12 columns menu flex-container">
-          <li><img src="img/520570-70x70-1461526216-primary.png"></li>
-          <li><img src="img/520570-70x70-1461526699-s1.png"></li>
-          <li><img src="img/520570-70x70-1461684719-s2.png"></li>
-          <li><img src="img/520570-70x70-1461684743-s4.png"></li>
-        </ul>
+        <div class="columns">
+          <div class="tabs-content border-none" data-tabs-content="example-tabs">
+            <div class="tabs-panel is-active p-0" id="panel1">
+              <img class="thumbnail border-none boxShadow-none" src="img/520570-740x740-1461526216-primary.png">
+            </div>
+            <div class="tabs-panel p-0" id="panel2">
+              <img class="thumbnail border-none boxShadow-none" src="img/520570-740x740-1461526699-s1.png">
+            </div>
+            <div class="tabs-panel p-0" id="panel3">
+              <img class="thumbnail border-none boxShadow-none" src="img/520570-740x740-1461684719-s2.png">
+            </div>
+            <div class="tabs-panel p-0" id="panel4">
+              <img class="thumbnail border-none boxShadow-none" src="img/520570-740x740-1461684743-s4.png">
+            </div>
+          </div>
+          <ul class="tabs border-none flex-container" data-tabs id="example-tabs">
+            <li class="tabs-title is-active"><a href="#panel1" aria-selected="true"><img src="img/520570-70x70-1461526216-primary.png"></a></li>
+            <li class="tabs-title"><a href="#panel2"><img src="img/520570-70x70-1461526699-s1.png"></a></li>
+            <li class="tabs-title"><a href="#panel3"><img src="img/520570-70x70-1461684719-s2.png"></a></li>
+            <li class="tabs-title"><a href="#panel4"><img src="img/520570-70x70-1461684743-s4.png"></a></li>
+          </ul>
+        </div>
       </div>
       <div class="row">
         <div class="small-12 columns">
@@ -110,13 +123,13 @@
         <div class="columns">
           <ul class="accordion" data-accordion data-allow-all-closed="true">
             <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title pR-0">Description</a>
+                <a href="#" class="accordion-title pR-0 border-none">Description</a>
                 <div class="accordion-content" data-tab-content >
                   <p>Your walls will be crying tears of joy when you hang this Wooden Teardrop Shelf. Brought to you by designers Olivia and Lee Goodwin of The Wavertree Co., it's the perfect place to display all your weird trinkets, plants, pet rocks, and all the feels that make your place distinctly yours.</p>
                 </div>
             </li>
             <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title pR-0">Shipping Info <i class="fa fa-truck" aria-hidden="true"></i></a>
+                <a href="#" class="accordion-title pR-0 border-none">Shipping Info <i class="fa fa-truck" aria-hidden="true"></i></a>
                 <div class="accordion-content" data-tab-content>
                   <p><span>Estimated Arrival:</span>Between Jun. 19 and Jul. 3 to PE</p>
                   <p><span>Return Policy:</span>We will gladly accept returns for any reason within 30 days of receipt of delivery.</p>
@@ -124,10 +137,28 @@
                 </div>
             </li>
             <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title pR-0">More Details</a>
-                <div class="accordion-content" data-tab-content>
-                  Type your name!
-                  <input type="text"></input>
+                <a href="#" class="accordion-title pR-0 border-none">More Details</a>
+                <div class="accordion-content row" data-tab-content>
+                  <div class="row">
+                    <div class="small-12 columns colorGray">
+                      <ul><li><span style="line-height: 1.231;">2 shelves</span></li></ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="small-6 columns colorGray">
+                      <p><span class="text-bold">Designer:</span>Olivia Goodwin, Lee Goodwin</p>
+                      <p><span class="text-bold">Brand:</span>The Wavertree Co. </p>
+                      <p><span class="text-bold">Material:</span>Cedar, Brass </p>
+                      <p><span class="text-bold">Color:</span>Brown</p>
+                      <p><span class="text-bold">Diameter:</span>2.50” </p>
+                    </div>
+                    <div class="small-6 columns colorGray">
+                      <p><span class="text-bold">Care:</span>Dust with a dry cloth.</p>
+                      <p><span class="text-bold">Finish</span>Clear Stain</p>
+                      <p><span class="text-bold">Origin:</span>United States</p>
+                      <p><span class="text-bold">Measurements:</span>L 11” W 18” H 1.50” </p>
+                    </div>
+                  </div>
                 </div>
             </li>
           </ul>
@@ -139,6 +170,8 @@
         </div>
         <div class="small-12 columns mt-1">
           <p class="text-customer">This product has no reviews yet. Be the first to review this product. <button class="hollow button secondary btn-customer" href="#">Rate / Write a review</button></p>
+
+
           
         </div>
           
