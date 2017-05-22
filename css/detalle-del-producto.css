@@ -1,7 +1,6 @@
 body {
 	margin:0;
 	padding:0;
-  /*padding: 2rem 1rem;*/
 }
 .border-none{
 	border:0;
@@ -12,8 +11,6 @@ body {
 div.p-0{
 	padding: 0;
 }
-
-
 div.container-text{
 	margin-top: 0.5em;
 }
@@ -37,50 +34,13 @@ a.link-by-product{
 	text-decoration: underline;
 }
 a.bg-red{
-	    font-weight: 900;
+	font-weight: 900;
 	background-color:#CF0218;
 }
-	
-
-@media (max-width: 600px){
-	.product-title{
-		font-size: 1.8em;
-	}
-	ul.flex-container-mobile{
-		display: flex;
-		justify-content: center;
-	}
-	.title-customer{
-    font-size: 1.19em;
-    color: #1b1919;
-    letter-spacing: 0.09em;
-    font-weight: 300;
-}
-
-}
-
-@media (min-width: 1024px){
-	ul.flex-container-desktop{
-    display: flex;
-    flex-direction: column;
-    height: 31em;
-    justify-content: center;
-	}
-	ul.flex-container-desktop>li{
-		padding-bottom: 1em;
-	}
-	h2.title-desktop{
-    font-size: 1.8em;
-    font-weight: 300;
-	}
-	#detalle-del-producto{
-	padding: 0 11em;
-}
-}
 span.text-above{
-	    font-weight: 500;
-	    font-size: 0.85em;
-	    color:#666;
+	font-weight: 500;
+	font-size: 0.85em;
+	color:#666;
 }
 span.text-above i{
 	color:#000;
@@ -89,25 +49,24 @@ span.text-red{
 	color:#dd0017;
 	font-size: 0.9em;
 }
-
 span.text-red-bold{
 	color:#dd0017;
 	font-weight: bold;
 }
 div.mt-1{
-	    margin-top: 1em;
+	margin-top: 1em;
 }
 i.icon-margin{
-	    padding-right: 1em;
+	padding-right: 1em;
 }
 div.content-heart{
-	    color: red;
+	color: red;
     padding-top: 0.5em;
 }
 div.containerFlex{
 	display: flex;
 	justify-content: space-between;
-	    font-size: 1.5em;
+	font-size: 1.5em;
     padding-right: 4em;
     margin: 1em 0;
     color:#333;
@@ -121,7 +80,7 @@ a.pR-0{
 
 p.text-customer{
 	color:#666;
-	    font-size: 0.9em
+	font-size: 0.9em
 }
 .accordionContenido{
 	font-size: 0.9em;
@@ -142,6 +101,40 @@ div.colorGray{
 span.text-bold{
 	font-weight: bold;
 	color:#000;
+}
+@media (max-width: 600px){
+	.product-title{
+		font-size: 1.8em;
+	}
+	ul.flex-container-mobile{
+		display: flex;
+		justify-content: center;
+	}
+	.title-customer{
+    	font-size: 1.19em;
+    	color: #1b1919;
+    	letter-spacing: 0.09em;
+    	font-weight: 300;
+	}
+}
+
+@media (min-width: 1024px){
+	ul.flex-container-desktop{
+    	display: flex;
+    	flex-direction: column;
+    	height: 31em;
+    	justify-content: center;
+	}
+	ul.flex-container-desktop>li{
+		padding-bottom: 1em;
+	}
+	h2.title-desktop{
+    	font-size: 1.8em;
+    	font-weight: 300;
+	}
+	section#detalle-del-producto{
+		padding: 0 11em;
+	}
 }
 
 
