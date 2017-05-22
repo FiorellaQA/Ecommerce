@@ -1,5 +1,7 @@
 body {
-  padding: 2rem 1rem;
+	margin:0;
+	padding:0;
+  /*padding: 2rem 1rem;*/
 }
 .border-none{
 	border:0;
@@ -11,10 +13,7 @@ div.p-0{
 	padding: 0;
 }
 
-ul.flex-container{
-	display: flex;
-	justify-content: center;
-}
+
 div.container-text{
 	margin-top: 0.5em;
 }
@@ -47,8 +46,37 @@ a.bg-red{
 	.product-title{
 		font-size: 1.8em;
 	}
+	ul.flex-container-mobile{
+		display: flex;
+		justify-content: center;
+	}
+	.title-customer{
+    font-size: 1.19em;
+    color: #1b1919;
+    letter-spacing: 0.09em;
+    font-weight: 300;
 }
 
+}
+
+@media (min-width: 1024px){
+	ul.flex-container-desktop{
+    display: flex;
+    flex-direction: column;
+    height: 31em;
+    justify-content: center;
+	}
+	ul.flex-container-desktop>li{
+		padding-bottom: 1em;
+	}
+	h2.title-desktop{
+    font-size: 1.8em;
+    font-weight: 300;
+	}
+	#detalle-del-producto{
+	padding: 0 11em;
+}
+}
 span.text-above{
 	    font-weight: 500;
 	    font-size: 0.85em;
@@ -61,6 +89,7 @@ span.text-red{
 	color:#dd0017;
 	font-size: 0.9em;
 }
+
 span.text-red-bold{
 	color:#dd0017;
 	font-weight: bold;
@@ -89,12 +118,7 @@ a.pR-0{
     color: #1b1919;
     letter-spacing: 0.09em;
 }
-span.title-customer{
-    font-size: 1.19em;
-    color: #1b1919;
-    letter-spacing: 0.09em;
-    font-weight: 300;
-}
+
 p.text-customer{
 	color:#666;
 	    font-size: 0.9em
