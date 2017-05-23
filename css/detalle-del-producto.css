@@ -19,18 +19,22 @@ div.container-text{
 }
 h1.product-title,
 h2.price-product{
+	font-family: 'Lato', sans-serif;
 	color: #171717;
 }
 h4.by-product{
+	font-family: 'Lato', sans-serif;
 	font-weight: 500;
-    font-size: 1.29em;
-    margin-bottom:0.5rem;
+  font-size: 1.29em;
+  margin-bottom:0.5rem;
 }
 h2.price-product{
+	font-family: 'Lato', sans-serif;
 	font-size: 1.7em;
 }
 h4.by-product,
 a.link-by-product{
+	font-family: 'Lato', sans-serif;
 	color: #666;
 }
 a.link-by-product{
