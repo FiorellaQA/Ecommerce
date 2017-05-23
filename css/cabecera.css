@@ -127,19 +127,23 @@ corresponding value from the list below*/
     border-top: solid 1px rgba(193, 195, 193, 0.94);
   }
   .line-gray-right{
+    padding-top: 1em;
   border-right: solid 1px rgba(193, 195, 193, 0.94);
   }
   .line-gray-bottom{
   border-bottom: solid 1px rgba(193, 195, 193, 0.94);
   }
 }
+.p1em{
+  padding-top: 1em;
+}
 footer ul{
   margin-left: 0px !important;
 }
-footer ul li{
-  list-style: none;
-  font-size: 0.7rem;
-  letter-spacing: 0.07rem;
+footer ul li {
+    list-style: none;
+    font-size: 0.9em;
+    /* letter-spacing: 0.05rem; */
 }
 
 footer ul li a{

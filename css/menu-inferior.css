@@ -1,0 +1,32 @@
+body{
+	font-family:'Lato', sans-serif;
+}
+#menu-inferior a{
+	color:#333;
+	font-size: 0.9em;
+}
+#menu-inferior div.top-links{
+	padding: 0 17px 0 0;
+	display: inline-block;
+}
+@media (max-width: 600px){
+	.container-links{
+		text-align: center;
+	}
+	.top-links{
+    	line-height: 3em;
+    }
+}
+@media (min-width: 1024px){
+	.container-header, .container-links, .container-footer {
+    	width: 942px;
+    	margin:0 42px;
+	}
+}
+#menu-inferior {
+    padding: 1.5em 1em;
+}
+section.line-gray {
+    margin-top: 1em;
+    border-top: solid 1px rgba(193, 195, 193, 0.94);
+}
