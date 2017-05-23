@@ -13,6 +13,7 @@
   position: fixed;
   height: 30px;
   line-height: 20px;
+  z-index:100;
 }
 .cabecera a:hover{
   text-decoration: underline;
@@ -56,6 +57,7 @@ corresponding value from the list below*/
   .sliders{
     padding-right: 0 !important;
     padding-left: 0 !important;
+    padding-top: 12% !important;
   }
 }
 @media (min-width: 640px){
@@ -63,6 +65,7 @@ corresponding value from the list below*/
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 12%;
   }
 }
 @media (min-width: 640px){
