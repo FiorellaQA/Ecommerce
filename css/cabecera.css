@@ -7,7 +7,6 @@
   padding: 0;
 }
 
-
 #menu-cabecera{
   width: 100%;
   background-color: #171717;
@@ -15,28 +14,22 @@
   height: 30px;
   line-height: 20px;
 }
-
 .cabecera a:hover{
   text-decoration: underline;
   text-decoration-color: #fff;
 }
-
 .font-size12{
   font-size: 0.7rem;
 }
-
 .white{
   color: white;
 }
-
 .flag{
   width: 1rem;
 }
-
 .email-hidden{
   padding-left: 1.7rem;
 }
-
 .fa-envelope{
   position: relative;
 }
@@ -59,62 +52,12 @@ corresponding value from the list below*/
   left: 0;
 }
 
-.fa-twitter-square:before {
-  content: "\f081";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-/*--adjust as necessary--*/
-  color: #000;
-  font-size: 30px;
-  padding-right: 0.5rem;
-}
-.fa-facebook-square:before {
-  content: "\f082";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-/*--adjust as necessary--*/
-  color: #000;
-  font-size: 30px;
-  padding-right: 0.5rem;
-}
-
-.fa-pinterest-square:before {
-  content: "\f0d3";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-/*--adjust as necessary--*/
-  color: #000;
-  font-size: 30px;
-  padding-right: 0.5rem;
-}
-.fa-instagram:before {
-  content: "\f16d";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-/*--adjust as necessary--*/
-  color: #000;
-  font-size: 30px;
-  padding-right: 0.5rem;
-}
 @media (max-width: 640px){
   .sliders{
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
 }
-
-/*.sliders img{
-  height: 450px;
-}*/
-
 @media (min-width: 640px){
   #slider{
     width: 80%;
@@ -141,7 +84,6 @@ footer ul li{
   font-size: 0.7rem;
   letter-spacing: 0.07rem;
 }
-
 footer ul li a{
   text-decoration: none;
   color: #333;
@@ -155,6 +97,9 @@ footer h4{
   font-size: 1rem;
   font-weight: bold;
   letter-spacing: 0.09rem;
+}
+.min-marg{
+  margin: 1rem 0;
 }
 @media (min-width: 640px){
   .box-content{
@@ -179,7 +124,90 @@ footer h4{
   line-height: 1.5rem;
   letter-spacing: 0.05rem;
 }
-
 .foot-2 i{
   line-height: 2.5rem;
+}
+.fa-twitter-square:before {
+  content: "\f081";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #000;
+  font-size: 30px;
+  padding-right: 0.5rem;
+}
+.fa-facebook-square:before {
+  content: "\f082";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #000;
+  font-size: 30px;
+  padding-right: 0.5rem;
+}
+.fa-pinterest-square:before {
+  content: "\f0d3";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #000;
+  font-size: 30px;
+  padding-right: 0.5rem;
+}
+.fa-instagram:before {
+  content: "\f16d";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #000;
+  font-size: 30px;
+  padding-right: 0.5rem;
+}
+.redes a:hover{
+  color: #337ab7 !important;
+}
+.register{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.offer{
+  font-size: 0.6rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.7rem;
+}
+
+.input-mail{
+  width: 60%;
+  box-shadow: none;
+  border: 1px solid rgba(193, 195, 193, 0.94);
+  display: inline-block;
+  margin-bottom: 0;
+}
+.btn-submit{
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 40%;
+  display: inline;
+  padding: 11px 20px;
+}
+.offer-terms{
+  font-size: 0.6rem;
+  line-height: -1rem;
+}
+.fa-question-circle:before {
+  content: "\f059";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #000;
+  font-size: 10px;
+  padding-right: 0.5rem;
 }
